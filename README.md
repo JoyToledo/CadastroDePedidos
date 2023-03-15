@@ -37,7 +37,8 @@ Compilador C instalado na máquina local.
 Sistema operacional compatível com a linguagem C.
 
 ### Contribuição ###
-Contribuições são sempre bem-vindas! Se você quiser contribuir com melhorias ou correções de bugs, sinta-se à vontade para enviar um pull request.
+Contribuições são sempre bem-vindas! 
+Se você quiser contribuir com melhorias ou correções de bugs, sinta-se à vontade para enviar um pull request.
 
 ### Autor ###
-[Seu nome] - [Seu e-mail]
+Joice Toledo
