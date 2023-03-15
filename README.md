@@ -1,8 +1,8 @@
 # CadastroDePedidos
 
-Este é um programa de cadastro de pedidos simples escrito em C. 
-Ele permite que o usuário cadastre novos pedidos e visualize pedidos existentes. 
-
+Desenvolvimento de um programa para cadastro de pedidos simples, utilizando a linguagem C. 
+Ele permite que o usuário cadastre novos pedidos e visualize pedidos existentes.
+----------
 ### Para cada pedido será armazenado os seguintes dados: ###
 - Código 
 - Nome
@@ -11,20 +11,20 @@ Ele permite que o usuário cadastre novos pedidos e visualize pedidos existentes
 - Valor  
 
 ### O programa deve conter o seguinte menu: ###
-- Cadastro de Pedido: 
-  - O pedido deve ser realizado preenchendo os dados;
-  - O código deverá ser gerado de forma automática do tipo inteiro e o valor será sequencial;
+1. Cadastro de Pedido: 
+    - O pedido deve ser realizado preenchendo os dados;
+    - O código deverá ser gerado de forma automática do tipo inteiro e o valor será sequencial;
   
-- Consulta Pedido:
-  - O usuário deve colocar o código do pedido para realizar a consulta;
-  - O sistema deve escrever na tela o pedido correspondente ao código informado;
-  - Caso não localize o código vai imprimir uma mensagem informativa;
+2. Consulta Pedido:
+    - O usuário deve colocar o código do pedido para realizar a consulta;
+    - O sistema deve escrever na tela o pedido correspondente ao código informado;
+    - Caso não localize o código vai imprimir uma mensagem informativa;
   
-- Emitir Relatório:
-  - O programa deve imprimir na tela todos os pedidos registrados;  
+3. Emitir Relatório:
+    - O programa deve imprimir na tela todos os pedidos registrados;  
   
-- Sair  
-  - O programa deve ser finalizado.
+4. Sair  
+    - O programa deve ser finalizado.
   
 ### Como usar ###
 Clone este repositório para sua máquina local.
