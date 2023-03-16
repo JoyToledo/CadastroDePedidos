@@ -11,7 +11,7 @@ Ele permite que o usuário cadastre novos pedidos e visualize pedidos existentes
 - Valor  
 
 ### O programa deve conter o seguinte menu: ###
-1. Cadastro de Pedido: 
+1. Cadastro de Pedido:
     - O pedido deve ser realizado preenchendo os dados;
     - O código deverá ser gerado de forma automática do tipo inteiro e o valor será sequencial;
   
@@ -27,9 +27,9 @@ Ele permite que o usuário cadastre novos pedidos e visualize pedidos existentes
     - O programa deve ser finalizado.
   
 ### Como usar ###
-Clone este repositório para sua máquina local.
-Compile o código usando um compilador C.
-Execute o programa a partir do seu terminal.
+Clone este repositório para sua máquina local.  
+Compile o código usando um compilador C.  
+Execute o programa a partir do seu terminal.  
 Siga as instruções na tela para cadastrar novos pedidos ou visualizar pedidos existentes.
 
 ### Requisitos do sistema ###
