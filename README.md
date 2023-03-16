@@ -1,8 +1,8 @@
 # CadastroDePedidos
 
-Desenvolvimento de um programa para cadastro de pedidos simples, utilizando a linguagem C. 
-Ele permite que o usuário cadastre novos pedidos e visualize pedidos existentes.
+Desenvolvimento de um programa para cadastro de pedidos simples, que permita o usuário cadastrar novos pedidos e visualizar pedidos existentes. Utilizando a linguagem C.  
 ----------
+
 ### Para cada pedido será armazenado os seguintes dados: ###
 - Código 
 - Nome
