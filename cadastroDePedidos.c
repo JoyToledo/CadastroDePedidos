@@ -1,8 +1,3 @@
-//Aluna: Joice Carolina da Silva Toledo
-//RA: 22101741-5
-//CURSO: BACHARELADO EM ENGENHARIA DE SOFTWARE
-//Matéria: ALGORITMOS E LÓGICA DE PROGRAMAÇÃO II , Módulo 52
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -26,15 +21,15 @@ int main()
     int option, i, op, search, located, quantity_orders;
 
 		
-	menu://menu de opçoes
+	menu://menu de opÃ§oes
     fflush(stdin);
 	system("cls");
 	printf("\nMENU PRINCIPAL\n");
     printf("\n1 - Cadastrar novo pedido\n");
     printf("\n2 - Consultar pedido\n");
-    printf("\n3 - Emitir relatório\n");
+    printf("\n3 - Emitir relatÃ³rio\n");
     printf("\n4 - Sair\n");
-    printf("\nDigite o número correspondente a opção desejada: \n");
+    printf("\nDigite o nÃºmero correspondente a opÃ§Ã£o desejada: \n");
     scanf("%d", &option);
         
     switch (option){
@@ -58,7 +53,7 @@ int main()
             printf("\nDigite seu nome: ");
             scanf("%50[^\n]s", &cad_order[i].name);
             fflush(stdin);
-            printf("\nInforme o endereço para entrega: ");
+            printf("\nInforme o endereÃ§o para entrega: ");
             scanf("%50[^\n]s", &cad_order[i].adress);
             fflush(stdin);
             printf("\nInforme seu pedido: ");
@@ -73,7 +68,7 @@ int main()
 		}
 					
 			system("cls");
-            printf("\nVOCÊ CONCLUI O REGISTRO DE %d PEDIDOS!!\n", quantity_orders);
+            printf("\nVOCÃŠ CONCLUI O REGISTRO DE %d PEDIDOS!!\n", quantity_orders);
 			system("pause");
             goto menu;
 
@@ -83,7 +78,7 @@ int main()
     	case 2: {
         system("cls");
         	printf("CONSULTAR PEDIDO \n");
-        	printf("\nDigite o número do pedido:\n ");
+        	printf("\nDigite o nÃºmero do pedido:\n ");
         	scanf ("%d", &search);
         	
         /*	int i=0;
@@ -105,14 +100,14 @@ int main()
 			printf("\nO pedido foi localizado\n");
 			printf("\nPedido: %i", cad_order[i].code);
             printf("\nNome: %d", cad_order[i].name);
-            printf("\nEndereço para entrega: %d", cad_order[i].adress);
+            printf("\nEndereÃ§o para entrega: %d", cad_order[i].adress);
             printf("\nPedido: %d", cad_order[i].request);
             printf("\nValor: R$ %i", cad_order[i].price);
         	}
 		    
 		    else 
 			system("cls");
-  	 		printf("O pedido não foi localizado.");
+  	 		printf("O pedido nÃ£o foi localizado.");
   	 		
 			} */
 					
@@ -124,7 +119,7 @@ int main()
     case 3: {
     	fflush(stdin);
         system("cls");
-        printf("RELATÓRIO DE PEDIDOS \n");
+        printf("RELATÃ“RIO DE PEDIDOS \n");
         
        /* for (i=0; i<quantity_orders; i++)
 			
@@ -132,7 +127,7 @@ int main()
         	
 			printf("\nPedido: %i", cad_order[i].code);
             printf("\nNome: %d", cad_order[i].name);
-            printf("\nEndereço para entrega: %d", cad_order[i].adress);
+            printf("\nEndereÃ§o para entrega: %d", cad_order[i].adress);
             printf("\nPedido: %d", cad_order[i].request);
             printf("\nValor: R$ %i", cad_order[i].price);
 			
@@ -161,7 +156,7 @@ int main()
 
     default: {
         system("cls");
-        printf("\nOpção inválida.\n");
+        printf("\nOpÃ§Ã£o invÃ¡lida.\n");
         system("pause");
         goto menu;
         break;
